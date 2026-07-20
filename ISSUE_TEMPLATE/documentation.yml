@@ -1,0 +1,70 @@
+name: Documentation
+description: Report missing, unclear or outdated documentation
+title: "[DOCS] "
+labels: ["documentation"]
+body:
+  - type: dropdown
+    id: type
+    attributes:
+      label: Issue Type
+      description: What kind of documentation issue is this?
+      options:
+        - Missing documentation
+        - Unclear explanation
+        - Outdated information
+        - Broken link
+        - Typo or formatting issue
+        - New documentation needed
+    validations:
+      required: true
+
+  - type: input
+    id: location
+    attributes:
+      label: Location
+      description: Where is the issue? Include a file path or URL.
+      placeholder: e.g. docs/phase-0/02_DATABASE.md or https://...
+    validations:
+      required: true
+
+  - type: textarea
+    id: current-content
+    attributes:
+      label: Current Content
+      description: If applicable, paste the current (problematic) content.
+    validations:
+      required: false
+
+  - type: textarea
+    id: suggested-content
+    attributes:
+      label: Suggested Improvement
+      description: What should the documentation say instead?
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Affected Area
+      description: Which documentation area does this relate to?
+      options:
+        - Architecture
+        - Database
+        - API Design
+        - Security
+        - Design System
+        - Git Workflow
+        - Coding Guidelines
+        - Glossary
+        - General
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional Context
+      description: Any other context about the documentation issue.
+    validations:
+      required: false

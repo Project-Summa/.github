@@ -1,0 +1,77 @@
+name: Tech Debt
+description: Report technical debt, code quality issues or improvement opportunities
+title: "[DEBT] "
+labels: ["tech-debt"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What is the technical debt? Describe the current state that needs improvement.
+      placeholder: Describe the technical debt...
+    validations:
+      required: true
+
+  - type: textarea
+    id: current-behavior
+    attributes:
+      label: Current Behavior
+      description: How does it work now? What are the pain points?
+    validations:
+      required: true
+
+  - type: textarea
+    id: desired-behavior
+    attributes:
+      label: Desired Behavior
+      description: How should it work instead?
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      description: Which part of the project does this affect?
+      options:
+        - Android
+        - iOS
+        - Backend
+        - Database
+        - CI/CD
+        - Documentation
+        - Design
+    validations:
+      required: true
+
+  - type: dropdown
+    id: impact
+    attributes:
+      label: Impact
+      description: How significantly does this debt affect development or the product?
+      options:
+        - High — Blocks or significantly slows development
+        - Medium — Causes friction but workarounds exist
+        - Low — Minor inconvenience
+    validations:
+      required: true
+
+  - type: dropdown
+    id: effort
+    attributes:
+      label: Effort
+      description: Estimated effort to resolve this debt.
+      options:
+        - Small — A few hours
+        - Medium — A few days
+        - Large — A week or more
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional Context
+      description: Any other context, related issues or references.
+    validations:
+      required: false

@@ -1,0 +1,86 @@
+name: Feature Request
+description: Suggest a new feature for Summa
+title: "[FEATURE] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What problem does this feature solve? What user need does it address?
+      placeholder: Describe the problem or need...
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution
+      description: Describe your proposed solution. How should this work?
+      placeholder: Describe how it should work...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: platforms
+    attributes:
+      label: Affected Platforms
+      description: Which platform(s) would this feature apply to?
+      multiple: true
+      options:
+        - Android
+        - iOS
+        - Backend (Self-Hosted)
+        - Backend (Summa Cloud)
+        - Documentation
+    validations:
+      required: true
+
+  - type: dropdown
+    id: offline-impact
+    attributes:
+      label: Local-First Impact
+      description: How does this feature relate to Summa's local-first principle?
+      options:
+        - Works Offline — No internet needed
+        - Needs Sync — Requires device synchronization
+        - Cloud Only — Only applicable when cloud is enabled
+        - N/A — Not related to local-first
+    validations:
+      required: true
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      description: How important is this feature to the product?
+      options:
+        - Must Have — Core functionality gap
+        - Should Have — Important for user experience
+        - Nice to Have — Would improve the product
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Describe any alternative solutions or workarounds you have considered.
+    validations:
+      required: false
+
+  - type: textarea
+    id: mockups
+    attributes:
+      label: Mockups / Wireframes
+      description: If applicable, add mockups, wireframes or sketches.
+    validations:
+      required: false
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional Context
+      description: Any other context, references or examples about the feature request.
+    validations:
+      required: false

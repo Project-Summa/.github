@@ -1,0 +1,89 @@
+name: Bug Report
+description: Report a bug to help us improve Summa
+title: "[BUG] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A clear and concise description of the bug.
+      placeholder: Describe what happened...
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: Numbered steps to reproduce the behavior.
+      placeholder: |
+        1. Go to '...'
+        2. Tap on '...'
+        3. Scroll down to '...'
+        4. See error
+    validations:
+      required: true
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      description: Which platform(s) are affected?
+      multiple: true
+      options:
+        - Android
+        - iOS
+        - Backend (Self-Hosted)
+        - Backend (Summa Cloud)
+    validations:
+      required: true
+
+  - type: input
+    id: app-version
+    attributes:
+      label: App Version
+      description: The version of the application where the bug occurs.
+      placeholder: e.g. 1.0.0
+    validations:
+      required: false
+
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: Device, OS and deployment mode.
+      placeholder: e.g. Pixel 8, Android 15, Local Only
+    validations:
+      required: false
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      description: How severely does this bug impact usage?
+      options:
+        - Critical — App crashes or data loss
+        - High — Major feature broken
+        - Medium — Feature works but incorrectly
+        - Low — Minor visual or cosmetic issue
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots-logs
+    attributes:
+      label: Screenshots / Logs
+      description: If applicable, add screenshots or paste relevant log output. Remove any sensitive financial data.
+      placeholder: |
+        (paste logs here)
+    validations:
+      required: false
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional Context
+      description: Any other context about the problem.
+    validations:
+      required: false
