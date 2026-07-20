@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Security Vulnerability
+    url: https://github.com/Project-Summa/.github/blob/main/SECURITY.md
+    about: Report security vulnerabilities responsibly. Do not open a public issue.
+  - name: Documentation
+    url: https://github.com/Project-Summa/summa/tree/main/docs
+    about: Read the project documentation before opening an issue.

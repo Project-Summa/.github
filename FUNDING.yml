@@ -1,0 +1,9 @@
+# Summa Funding Configuration
+# https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/displaying-a-sponsor-button-in-your-repository
+
+# Uncomment and configure when sponsorship platform is selected:
+
+# github: [Project-Summa]
+# ko_fi: summa
+# open_collective: summa
+# patreon: summa
