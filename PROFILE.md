@@ -39,8 +39,8 @@ Summa is in **Phase 0 — Foundation**. The team is establishing architecture, d
 
 ## Get Involved
 
-- Read the [Contributing Guide](https://github.com/Project-Summa/.github/blob/main/CONTRIBUTING.md)
-- Review the [Security Policy](https://github.com/Project-Summa/.github/blob/main/SECURITY.md)
+- Read the [Contributing Guide](https://github.com/Project-Summa/.github/blob/master/CONTRIBUTING.md)
+- Review the [Security Policy](https://github.com/Project-Summa/.github/blob/master/SECURITY.md)
 - Check the [project documentation](https://github.com/Project-Summa/summa/tree/main/docs)
 
 ---
