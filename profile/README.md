@@ -8,7 +8,7 @@
 
 <br>
 
-[![License: AGPL-3.0](https://img.shields.io/badge/license-AGPL--3.0-blue.svg)](https://github.com/Project-Summa/summa/blob/master/LICENSE)
+[![License: AGPL-3.0](https://img.shields.io/badge/license-AGPL--3.0-blue.svg)](https://github.com/Project-Summa/summa-docs/blob/master/LICENSE)
 [![Status: Phase 0](https://img.shields.io/badge/status-Phase%200-ff9800.svg)](https://github.com/Project-Summa/summa-docs)
 [![Open Source](https://img.shields.io/badge/open%20source-yes-brightgreen.svg)](https://github.com/Project-Summa)
 [![Privacy First](https://img.shields.io/badge/privacy%20first-9c27b0.svg)](https://github.com/Project-Summa/summa-docs/blob/master/docs/01_VISION_AND_PRINCIPLES.md)
