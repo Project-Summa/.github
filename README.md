@@ -8,10 +8,10 @@
 
 <br>
 
-[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Project-Summa/summa/blob/master/LICENSE)
-[![Status: Phase 0](https://img.shields.io/badge/status-Phase%200-ff9800.svg)](https://github.com/Project-Summa/summa)
+[![License: AGPL-3.0](https://img.shields.io/badge/license-AGPL--3.0-blue.svg)](https://github.com/Project-Summa/summa/blob/master/LICENSE)
+[![Status: Phase 0](https://img.shields.io/badge/status-Phase%200-ff9800.svg)](https://github.com/Project-Summa/summa-docs)
 [![Open Source](https://img.shields.io/badge/open%20source-yes-brightgreen.svg)](https://github.com/Project-Summa)
-[![Privacy First](https://img.shields.io/badge/privacy-first-9c27b0.svg)](https://github.com/Project-Summa/summa/blob/master/docs/01_VISION_AND_PRINCIPLES.md)
+[![Privacy First](https://img.shields.io/badge/privacy%20first-9c27b0.svg)](https://github.com/Project-Summa/summa-docs/blob/master/docs/01_VISION_AND_PRINCIPLES.md)
 
 </div>
 
@@ -39,10 +39,11 @@ Summa is a **local-first** personal finance application that works entirely on y
 
 | Repository | Description |
 |:-----------|:------------|
-| **[summa](https://github.com/Project-Summa/summa)** | 📖 Central documentation, architecture and project governance |
-| **[summa-android](https://github.com/Project-Summa/summa-android)** | 🤖 Native Android application |
-| **[summa-ios](https://github.com/Project-Summa/summa-ios)** | 🍎 Native iOS application |
-| **[summa-backend](https://github.com/Project-Summa/summa-backend)** | ⚙️ Optional self-hosted synchronization server |
+| **[summa-docs](https://github.com/Project-Summa/summa-docs)** | 📖 Documentation, architecture and project governance |
+| **[summa-android](https://github.com/Project-Summa/summa-android)** | 🤖 Native Android client |
+| **[summa-ios](https://github.com/Project-Summa/summa-ios)** | 🍎 Native iOS client |
+| **[summa](https://github.com/Project-Summa/summa)** | ⚙️ Open-source synchronization backend |
+| **[summa-website](https://github.com/Project-Summa/summa-website)** | 🌐 Official website and documentation portal |
 
 <br>
 
@@ -68,8 +69,8 @@ Summa is in **Phase 0 — Foundation**. We are establishing architecture, docume
 
 - 📖 [Read the Contributing Guide](https://github.com/Project-Summa/.github/blob/master/CONTRIBUTING.md)
 - 🛡️ [Review the Security Policy](https://github.com/Project-Summa/.github/blob/master/SECURITY.md)
-- 📚 [Explore Project Documentation](https://github.com/Project-Summa/summa/tree/master/docs)
-- 💬 [Join the Discussion](https://github.com/Project-Summa/summa/discussions)
+- 📚 [Explore Project Documentation](https://github.com/Project-Summa/summa-docs/tree/master/docs)
+- 💬 [Join the Discussion](https://github.com/Project-Summa/summa-docs/discussions)
 
 <br>
 
@@ -79,6 +80,6 @@ Summa is in **Phase 0 — Foundation**. We are establishing architecture, docume
 
 **Built with ❤️ for people who believe financial privacy is a right, not a privilege.**
 
-[Documentation](https://github.com/Project-Summa/summa) · [Android](https://github.com/Project-Summa/summa-android) · [iOS](https://github.com/Project-Summa/summa-ios) · [Backend](https://github.com/Project-Summa/summa-backend)
+[Docs](https://github.com/Project-Summa/summa-docs) · [Android](https://github.com/Project-Summa/summa-android) · [iOS](https://github.com/Project-Summa/summa-ios) · [Backend](https://github.com/Project-Summa/summa)
 
 </div>
